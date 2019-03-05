@@ -8,7 +8,9 @@
 ![Repo size][repo-size-image]
 ![Github Top Language][language-image]
 
-Super easy barcode generation for ReactJS
+Super easy barcode generation for ReactJS.
+
+This package uses [JsBarcode](https://github.com/lindell/JsBarcode)
 
 ## Install
 
@@ -28,7 +30,7 @@ yarn add react-hooks-barcode
 
 ## Demo
 
-[Example] https://codesandbox.io/s/k50p47kk47 [Live Show](https://k50p47kk47.codesandbox.io/)
+[Example](https://codesandbox.io/s/k50p47kk47) [Live Show](https://k50p47kk47.codesandbox.io/)
 
 ## Usage
 
@@ -59,6 +61,32 @@ const config = {
   value="https://github.com/phaniteja1/react-hooks-barcode"
   {...config}
 />;
+```
+
+## Available Options
+
+### Refer to JsBarcode options [wiki page](https://github.com/lindell/JsBarcode/wiki/Options) for more information
+
+```js
+{
+  width: 2,
+  height: 100,
+  format: "CODE128",
+  displayValue: true,
+  fontOptions: "",
+  font: "monospace",
+  textAlign: "center",
+  textPosition: "bottom",
+  textMargin: 2,
+  fontSize: 20,
+  background: "#ffffff",
+  lineColor: "#000000",
+  margin: 10,
+  marginTop: undefined,
+  marginBottom: undefined,
+  marginLeft: undefined,
+  marginRight: undefined
+}
 ```
 
 ## Contribution
