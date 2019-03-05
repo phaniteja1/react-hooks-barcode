@@ -1,0 +1,50 @@
+{
+  "name": "react-hooks-barcode",
+  "version": "1.0.0",
+  "description": "React component for generating barcodes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaniteja1/react-hooks-barcode.git"
+  },
+  "keywords": [
+    "[\"react\"",
+    "\"hooks\"",
+    "\"barcode\"",
+    "\"jsbarcode\"]"
+  ],
+  "author": "phaniteja1",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "bugs": {
+    "url": "https://github.com/phaniteja1/react-hooks-barcode/issues"
+  },
+  "homepage": "https://github.com/phaniteja1/react-hooks-barcode#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "jsbarcode": "^3.11.0"
+  }
+}
