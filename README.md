@@ -12,6 +12,8 @@ Super easy barcode generation for ReactJS.
 
 This package uses [JsBarcode](https://github.com/lindell/JsBarcode)
 
+![Alt Text](src/demo.gif)
+
 ## Install
 
 > **Note:** Make sure that you have installed the correct version of `react(>= v16.8.0)` and `react-dom(>= v16.8.0)`.
