@@ -30,7 +30,7 @@ yarn add react-hooks-barcode
 
 ## Demo
 
-[Example](https://codesandbox.io/s/k50p47kk47) [Live Show](https://k50p47kk47.codesandbox.io/)
+[Example](https://codesandbox.io/s/k50p47kk47) &emsp;&emsp; [Live Demo](https://k50p47kk47.codesandbox.io/)
 
 ## Usage
 
