@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-barcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for generating barcodes",
   "main": "dist/index.js",
   "scripts": {
