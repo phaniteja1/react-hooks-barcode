@@ -43,7 +43,7 @@ import Barcode from "react-hooks-barcode";
 ### Get barcode with `value`
 
 ```js
-<Barcode value="https://github.com/phaniteja1/react-hooks-barcode" />
+<Barcode value="https://reactjs.org/" />
 ```
 
 ## Configuring Options
@@ -54,13 +54,10 @@ const config = {
   marginTop: "20px",
   marginBottom: "20px",
   fontOptions: "italic",
-  width: 1
+  width: 2
 };
 
-<Barcode
-  value="https://github.com/phaniteja1/react-hooks-barcode"
-  {...config}
-/>;
+<Barcode value="https://reactjs.org/" {...config} />;
 ```
 
 ## Available Options
