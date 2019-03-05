@@ -5,7 +5,7 @@ function Barcode({ value, renderer = "svg", ...props }) {
   const ref = useRef(null);
 
   useEffect(() => {
-    new JsBarcode(ref.current, value, props);
+    if (value) new JsBarcode(ref.current, value, props);
   }, [value]);
 
   if (renderer === "svg") {
